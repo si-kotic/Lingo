@@ -35,4 +35,6 @@ Function Play-Lingo {
         Write-LastGuess -targetWord $targetWord -lastGuess $lastGuess
         $lastGuess = Read-Host -Prompt "Guess"
     }
+    Write-LastGuess -targetWord $targetWord -lastGuess $lastGuess
+    Write-Host "Congratulations!" 
 }
